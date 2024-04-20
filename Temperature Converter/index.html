@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+      <!-- box icons -->
+      <link rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+      <!-- font awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="temp-converter">
+
+              <!-- icons -->
+              <div class="icons">
+                <p id="clock">00:00 AM</p>
+                <div>
+                    <i class='bx bx-signal-4'></i>
+                    <i class='bx bx-wifi' ></i>
+                    <i class='bx bxs-battery' ></i>
+                </div>
+            </div>
+
+            <h2 class="title">Temperature Converter</h2>
+            <div class="input-container">
+                <div class="field">
+                    <label for="degree">Degree</label>
+                    <input type="number" id="degree" placeholder="Enter degree">
+                </div>
+                <div class="field">
+                    <label for="from">From</label>
+                    <select id="from">
+                        <option value="celsius">Celsius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvin</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="to">To</label>
+                    <select id="to">
+                        <option value="celsius">Celsius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvin</option>
+                    </select>
+                </div>
+            </div>
+            <div class="result">
+                <span class="heading">Result</span>
+                <div id="result"></div>
+            </div>
+            <button id="convertBtn">CONVERT</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
