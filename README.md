@@ -1,1 +1,1 @@
-# OIBSIP
+This repository is a record of my journey through web development during my internship at Oasis Infobyte as Web Development and Design Intern. It contains various projects demonstrating my progress in HTML, CSS, JavaScript, and responsive design. These projects showcase my learning and growth as a web developer, from basic concepts to more advanced techniques. Join me as I document my hands-on experience and achievements in web development.
