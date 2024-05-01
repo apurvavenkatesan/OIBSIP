@@ -1,0 +1,156 @@
+
+section {
+  padding: 60px 0;
+}
+h2{
+  color:#003046;
+}
+p{
+  color: #000000; 
+} 
+#about h4, #pricing h3, #reviews h5{
+  color:#d62828;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #003046; 
+}
+.navbar-brand p {
+  color:#eae2b7;
+  font-weight: bold;
+}
+.nav-link p{
+  color:#eae2b7;
+}
+.navbar-toggler {
+  background-color: #f77f00; 
+}
+.navbar-nav .nav-item:hover .nav-link p {
+  font-weight: bold; 
+}
+
+/* SIDEBAR */
+.booklist{
+  list-style-type: disc;
+}
+/* side bar current book  */
+.thisbook{
+  color: #d62828;
+}
+a #sidebarlink :visited{
+  color: #fcbf49;
+}
+.sidebar{
+  background-color: #003046;
+}
+
+/* INTRO SECTION */
+#intro{
+      background: linear-gradient(to bottom, #003046, #04131a);
+}
+div .first, .third{
+  color:#eae2b7;
+}
+div .second{
+  color:#d62828;
+  font-weight: bold;
+}
+.btn-primary , .btn-secondary {
+  background-color: #f77f00; 
+  border-color: #f77f00; 
+  color:#f7f6f4
+}
+.btn-primary:hover, .btn-secondary:hover {
+  background-color: #fcbf49; 
+  border-color: #fcbf49; 
+}
+.btn-outline-color{
+  border: 3px solid;
+  border-color: #fcbf49; 
+}
+.btn-outline-color:hover{
+  background-color: #f77f00; 
+  color:#f7f6f4;
+}
+.text-light{
+  color:#eae2b7;
+}
+
+
+/* ABOUT THE AUTHOR */
+#author{
+  background-color: #003046; 
+}
+
+/* PRICING */
+
+#pricing .card-border{
+  border-color: #f77f00;
+}
+#pricing .text{
+  color: #fea900;
+}
+#pricing{
+  background-color: #13729e29;
+}
+/* Prevent button from turning blue after clicking */
+.btn-primary:focus,
+.btn-secondary:focus,
+.btn-outline-color:focus{
+  background-color: #f77f00 !important; 
+  border-color: #f77f00 !important;
+}
+
+/* REVIEWS */
+#reviews{
+  background-color:#FFF6F4;
+}
+#reviews .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+#reviews .card{
+  border: 1px solid #d62828;
+  
+}
+.card-footer{
+  border-top:1px solid #d62828;
+  background-color: #bd5151;
+  color: #eae2b7;
+}
+
+/* CONTACT FORM */
+#contact .contact-form{
+  background-color:#13729e29;
+}
+#contact h6{
+  color: #d62828;
+}
+
+/* PRICING */
+#pricing .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* MODAL */
+.modal-header{
+  background-image: url(confetti.jpeg);
+}
+
+/* FOOTER */
+#footer{
+  background: linear-gradient(to bottom, #003046, #001924);
+}
+.footer-content{
+      color: #f9f9f9; 
+}
+footer a:hover {
+  color:#f77f00; 
+}
+
+
+
+

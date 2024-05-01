@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Design Of Everyday Things</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-md navbar-light pt-5 pb-4">
+    <div class="container-xxl">
+      <!-- navbar brand / title -->
+      <a class="navbar-brand" href="#intro">
+        <span class="text-secondary fw-bold">
+          <i class="bi bi-book-half"></i>
+          <p>The Design Of Everyday Things - Book</p>
+        </span>
+      </a>
+      <!-- toggle button for mobile nav -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about"><p>About The Book</p></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reviews"><p>Reviews</p></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing"><p>Pricing</p></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"><p>Contact</p></a>
+          </li>
+          <li class="nav-item ms-2 d-none d-md-inline">
+            <a class="btn btn-secondary" href="#pricing">Order Now</a>
+          </li>
+         
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- main image & intro text -->
+  <section id="intro">
+    <div class="container-lg">
+      <div class="row g-4 justify-content-center align-items-center">
+        <div class="col-md-5 text-center text-md-start">
+          <h2 class="display-2 first">Understanding</h2>
+          <h2 class="display-5 second">Design Principles</h2>
+          <p class="lead my-4 third">Explore the psychology behind well-designed products and systems.</p>
+          <a href="#pricing" class="btn  btn-primary btn-lg">Order Now</a>
+        
+        </div>
+        <div class="col-md-5 text-center">
+          <!-- tooltip -->
+          <span class="tt" data-bs-placement="bottom" title="Design Of Everyday Things Book cover">
+            <img src="Design of everyday things.png" class="img-fluid d-block mx-auto" alt="Design Of Everyday Things Book">
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about the book -->
+  <section id="about" class="bg-light ">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2>About the Book</h2>
+        <h4>Discover how good design makes the world more understandable and usable.</h4>
+      </div>
+
+      <div class="row my-5 g-0 align-items-center justify-content-center">
+        <div class="col-md-6">
+          <p class="lead">The Design of Everyday Things is a book by cognitive scientist and usability engineer Don Norman about how design serves as the communication between object and user, and how to optimize that conduit of communication in order to make the experience of using the object pleasurable.</p>
+          <p class="lead">In this book, Norman discusses the psychology behind good design and provides principles and guidelines that can be applied to create better-designed products and systems.</p>
+          <div> <a href="#chapters" class="btn btn-outline-color btn-md ">Explore Chapters</a></div>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+ 
+  <!-- about the author  -->
+   <section id="author">
+    <div class="container-lg">
+      <div class="row g-5 justify-content-center align-items-center">
+        <div class="col-md-5">
+          <!-- author img on left -->
+            <img src="donnorman.webp" class="img-fluid d-block mx-auto" alt="Author-Don Norman" >
+          </span>
+        </div>
+        <div class="col-md-5 text-center text-md-start">
+         <h2 class="second">Author - Don Norman</h2>
+         <p class="lead text-light">Don Norman is a renowned figure in the fields of cognitive science and design, celebrated for his pioneering insights into the intricate relationship between humans and the products they encounter in their daily lives. With a distinguished academic background, including a Ph.D. in psychology from the University of Pennsylvania, Norman has dedicated his career to unraveling the mysteries of human behavior and cognition. His influential book, "The Design of Everyday Things," has become a cornerstone in the study of user-centered design. 
+        </p>
+          <p class="lead text-light">
+            Beyond academia, Norman's influence extends into the heart of the technology industry, where he has played pivotal roles in shaping the user experiences of iconic products. As a co-founder of the Nielsen Norman Group and a former Vice President at Apple, he continues to challenge conventional thinking, advocating for designs that resonate deeply with users.
+          </p>
+         <!-- open sidebar / offcanvas -->
+         <a href="#sidebar" class="d-block mt-3 " id="sidebarlink" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+         Discover more from the author
+        </a> 
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- chapters -->
+  <section id="chapters" class="bg-light">
+    <div class="container-md">
+      <div class="text-center">
+        <h2>Chapters</h2>
+        <p class="lead second">Explore the key concepts and chapters covered in the book.</p>
+      </div>
+      <div class="row my-5 g-0 justify-content-around align-items-center">
+        <div class="col-6 col-lg-5">
+          <!-- book image -->
+          <img src="kindle.png" class="img-fluid" alt="Design Book">
+        </div>
+        <div class="col-lg-6">
+          <!-- accordion for chapters -->
+          <!-- ch-1 -->
+          <div class="accordion" id="chaptersAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="chapterOneHeader">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapterOneContent" aria-expanded="true" aria-controls="chapterOneContent">
+                  Chapter 1 - The Psychopathology of Everyday Things
+                </button>
+              </h2>
+              <div id="chapterOneContent" class="accordion-collapse collapse show" aria-labelledby="chapterOneHeader" data-bs-parent="#chaptersAccordion">
+                <div class="accordion-body">
+                  <p>In this enlightening chapter, Don Norman delves into the intricate realm of everyday objects, unraveling the mysteries of their design quirks. Prepare to gain profound insights into why some designs excel while others falter, setting the stage for a journey into the heart of design psychology.</p>
+                </div>
+              </div>
+            </div>
+            <!-- ch2 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="chapterTwoHeader">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapterTwoContent" aria-expanded="false" aria-controls="chapterTwoContent">
+                  Chapter 2 - The Psychology of Everyday Actions
+                </button>
+              </h2>
+              <div id="chapterTwoContent" class="accordion-collapse collapse" aria-labelledby="chapterTwoHeader" data-bs-parent="#chaptersAccordion">
+                <div class="accordion-body">
+                  <p>Join Don Norman as he navigates the labyrinth of human cognition, shedding light on the subconscious drivers behind our daily interactions. From the nuances of user behavior to the profound impact of design choices, prepare to embark on a fascinating exploration of the human mind in action.</p>
+                </div>
+              </div>
+            </div>
+            <!-- ch-3 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="chapterThreeHeader">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapterThreeContent" aria-expanded="false" aria-controls="chapterThreeContent">
+                  Chapter 3 - Knowledge in the Head and in the World
+                </button>
+              </h2>
+              <div id="chapterThreeContent" class="accordion-collapse collapse" aria-labelledby="chapterThreeHeader" data-bs-parent="#chaptersAccordion">
+                <div class="accordion-body">
+                  <p>In this thought-provoking chapter, Don Norman delves into the delicate balance between internal and external knowledge systems. Gain a deeper understanding of how users perceive and interact with the world around them, and uncover actionable insights for crafting intuitive and user-centric designs.</p>
+                </div>
+              </div>
+            </div>
+            <!-- ch-4 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="chapterFourHeader">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapterFourContent" aria-expanded="false" aria-controls="chapterFourContent">
+                  Chapter 4 - Knowing What to Do: Constraints, Discoverability, and Feedback
+                </button>
+              </h2>
+              <div id="chapterFourContent" class="accordion-collapse collapse" aria-labelledby="chapterFourHeader" data-bs-parent="#chaptersAccordion">
+                <div class="accordion-body">
+                  <p>Explore the pivotal role of design constraints in shaping user experiences, as Don Norman masterfully dissects the principles of discoverability and feedback. From leveraging constraints as creative catalysts to designing intuitive interfaces, prepare to elevate your design prowess to new heights.</p>
+                </div>
+              </div>
+            </div>
+            <!-- ch-5 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="chapterFiveHeader">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapterFiveContent" aria-expanded="false" aria-controls="chapterFiveContent">
+                  Chapter 5 - Human Error? No, Bad Design
+                </button>
+              </h2>
+              <div id="chapterFiveContent" class="accordion-collapse collapse" aria-labelledby="chapterFiveHeader" data-bs-parent="#chaptersAccordion">
+                <div class="accordion-body">
+                  <p>In this eye-opening chapter, Don Norman challenges conventional notions of human error, shining a spotlight on the underlying design flaws that often bear the blame. Discover actionable strategies for mitigating errors and fostering resilience in design, empowering you to create products that delight and endure.</p>
+                </div>
+              </div>
+            </div>
+            <!-- ch-6 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="chapterSixHeader">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapterSixContent" aria-expanded="false" aria-controls="chapterSixContent">
+                  Chapter 6 - Design Thinking
+                </button>
+              </h2>
+              <div id="chapterSixContent" class="accordion-collapse collapse" aria-labelledby="chapterSixHeader" data-bs-parent="#chaptersAccordion">
+                <div class="accordion-body">
+                  <p>Embark on a transformative journey into the realm of design thinking, guided by Don Norman's visionary insights. Learn to harness the power of empathy, ideation, and iteration to tackle complex challenges with creativity and finesse. Unlock the secrets of human-centered design and revolutionize your approach to problem-solving.</p>
+                </div>
+              </div>
+            </div>
+            <!-- ch-7 -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="chapterSevenHeader">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapterSevenContent" aria-expanded="false" aria-controls="chapterSevenContent">
+                  Chapter 7 - Design in the World of Business
+                </button>
+              </h2>
+              <div id="chapterSevenContent" class="accordion-collapse collapse" aria-labelledby="chapterSevenHeader" data-bs-parent="#chaptersAccordion">
+                <div class="accordion-body">
+                  <p>Join Don Norman at the intersection of design and business, where innovation thrives and new frontiers beckon. Gain strategic insights into the dynamic landscape of business design, from navigating disruptive technologies to championing ethical design practices. Prepare to shape the future of design-driven entrepreneurship with confidence and clarity.
+                  </p>
+                </div>
+              </div>
+            </div>
+    </div>
+  </section>
+  <!-- pricing -->
+  <section id="pricing" class="">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2>Pricing Plans</h2>
+        <h3 >Choose a pricing plan to suit you.</h3>
+      </div>
+
+      <div class="row my-5 g-0 align-items-center justify-content-center">
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">Starter Edition</h4>
+              <p class="lead card-subtitle">E-Book download only</p>
+              <p class="display-5 my-4 text fw-bold">₹ 599</p>Access the eBook version which is perfect for those who want to explore the foundational concepts at an affordable price.</p>
+              <a href="#" class="btn btn-primary btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#reg-modal">
+                Buy Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="col-9 col-lg-4">
+          <div class="card card-border border-2">
+            <div class="card-header text-center text fw-bold">Most Popular</div>
+            <div class="card-body text-center py-5">
+              <h4 class="card-title">Complete Edition</h4>
+              <p class="lead card-subtitle">E-Book download & all updates</p>
+              <p class="display-4 my-4 text fw-bold">₹ 999</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Get the complete eBook package of "The Design of Everyday Things," including all updates and revisions. Ideal for enthusiasts and professionals alike who seek comprehensive insights and want to stay up-to-date with the latest editions.</p>
+              <a href="#" class="btn btn-primary btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#reg-modal">
+                Buy Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0">
+            <div class="card-body text-center py-4">
+              <h4 class="card-title">Ultimate Edition</h4>
+              <p class="lead card-subtitle">Download, updates & extras</p>
+              <p class="display-5 my-4 text fw-bold">₹ 1,299</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block"> Dive deep into the realm of design with additional resources and bonuses tailored to enhance your learning journey.</p>
+              <a href="#" class="btn btn-primary btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#reg-modal">
+                Buy Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- pricing end container -->
+  </section>
+
+
+   <!-- reviews -->
+   <section id="reviews" class="py-5">
+    <div class="container-lg text-center">
+      <h2>What Our Readers Say</h2>
+      <h5>Discover why 'The Design of Everyday Things' is capturing hearts and minds!</h5>
+      <div class="row mt-4 pt-4">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <p class="card-text">"A must-read for designers and anyone interested in understanding the principles of good design."</p>
+            </div>
+            <div class="card-footer">
+              <cite>Apurva Venkatesan, UX Designer</cite>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <p class="card-text">"Don Norman's insights into design psychology are invaluable for anyone in the field of user experience."</p>
+            </div>
+            <div class="card-footer">
+              <cite>John Smith, Product Manager</cite>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <p class="card-text">"After reading this book, I see everyday objects in a whole new light. Highly recommended!"</p>
+            </div>
+            <div class="card-footer">
+              <cite>Rajeev, Industrial Designer</cite>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <p class="card-text">"Don Norman's insights have fundamentally changed the way I approach design. This book is a treasure trove of wisdom for designers of all levels."</p>
+            </div>
+            <div class="card-footer">
+              <cite>Priya Patel, Graphic Designer</cite>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <p class="card-text">"As a student studying design, I found this book to be an invaluable resource. It provides practical guidance and thought-provoking insights that have greatly enhanced my understanding of the design process."</p>
+            </div>
+            <div class="card-footer">
+              <cite>Lisa Jones, Design Student</cite>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <p class="card-text">"I've been in the design industry for over a decade, and yet, this book still managed to teach me new perspectives and approaches to design. It's a must-have for any serious designer's library."</p>
+            </div>
+            <div class="card-footer">
+              <cite>Emily Henry, Senior Designer</cite>
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </section>
+
+  <!-- modal -->
+  <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-title">Hurray! You got the book! 🎉</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Congratulations on your purchase of 'The Design of Everyday Things'! 🎉 Get ready to unlock valuable insights into design and usability engineering. You'll receive an email shortly with your eBook download link and instructions. For any assistance, contact support 
+            <a href="mailto:apurvavenkatesan@gmail.com"> support @designofeverydaythings.com</a>. Happy reading!</p>
+         
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+   <!-- contact form -->
+<section id="contact" class="bg-light  py-5">
+  <div class=" contact-form container-lg border rounded p-4">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="text-center">
+          <img src="contact.jpg" alt="Contact Image" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="text-center ">
+          <h2>Get in Touch with us!</h2>
+          <h6>Send us a message with your inquiries or feedback.</h6>
+        </div>
+        <form class="mt-5">
+          <div class="mb-3">
+            <input type="text" class="form-control border-0 border-bottom" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control border-0 border-bottom" id="email" placeholder="Your Email" required>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control border-0 border-bottom" id="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary ">Send <i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- side panel / offcanvas -->
+  <section class="sidebar ">
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+      <div class="offcanvas-header justify-content-start">
+       <img width="100" height="100" src="https://img.icons8.com/external-edtim-lineal-color-edtim/100/external-Books-business-edtim-lineal-color-edtim.png" alt="external-Books-business-edtim-lineal-color-edtim"/>
+        <h4 class="offcanvas-title" id="sidebar-label">More from The Author</h4>
+      </div>
+      <div class="offcanvas-body">
+        <p>Explore the insightful world of Don Norman's works, where design meets psychology, usability, and innovation, creating a profound impact on how we interact with everyday objects and technology.</p>
+        <ol>
+          <li><b>Usability Books</b>
+            <ul class="booklist">
+              <li class="thisbook">The Design of Everyday Things</li>
+              <li>Living with Complexity</li>
+              <li>The Design of Future Things</li>
+              <li> Emotional Design: Why We Love (or Hate) Everyday Things</li>
+              <li> Emotional Design: Why We Love (or Hate) Everyday Things</li>
+              <li>The Invisible Computer: Why Good Products Can Fail, the Personal Computer Is So Complex, and Information Appliances Are the Solution</li>
+              <li>Turn Signals Are The Facial Expressions Of Automobiles</li>
+              <li>hings That Make Us Smart: Defending Human Attributes In The Age Of The Machine</li>
+              <li>The Psychology of Everyday Things</li>
+            </ul>
+          </li>
+          <li><b>Psychology Books</b>
+            <ul class="booklist">
+              <li>Learning and Memory</li>
+              <li> Human information processing: An introduction to psychology</li>
+              <li>Memory and Attention: An Introduction to Human Information Processing -  Second Edition</li>
+              <li>Memory and Attention: An Introduction to Human Information Processing</li>          
+            </ul>
+          </li>
+          <li><b>Other Publications</b>
+            <ul class="booklist">
+              <li>The Trouble with Unix: The User Interface is Horrid</li>
+              <li>Direct manipulation interfaces </li>
+              <li>User Centered System Design: New Perspectives on Human-Computer Interaction </li>
+              <li>Defending Human Attributes in the Age of the Machine</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+   
+<!-- footer -->
+<footer id="footer" class="text-center py-4 ">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-md-start">
+        <p class="footer-content">&copy; 2024 The Design of Everyday Things. All rights reserved.</p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <a href="mailto:apurvavenkatesan@gmail.com" class="fs-4 me-2"><i class="fa-solid fa-envelope"></i></a>
+        <a href="www.linkedin.com/in/apurvavenkatesan" class="fs-4 me-2"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/apurvavenkatesan" class="fs-4 me-2"><i class="fa-brands fa-square-github"></i></a>
+        <a href="https://www.instagram.com/apurva_venkatesan/" class="fs-4 me-2"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="#" class="fs-4 me-2"><i class="fa-brands fa-square-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+   
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+ 
